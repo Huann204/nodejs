@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "f8"
+  ],
+  "homepage": "https://github.com/Huann204/nodejs#readme",
+  "bugs": {
+    "url": "https://github.com/Huann204/nodejs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huann204/nodejs.git"
+  },
+  "license": "ISC",
+  "author": "Ryan Dahl",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
